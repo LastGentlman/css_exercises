@@ -15,27 +15,26 @@ body {
   justify-content: center;
 }
 
-.modal {
+.modal { /* container */
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 10px;
+  padding: 12px; /**/
+  gap: 10px; /**/
+  display: flex; /**/
 }
 
-.toparea{
-  display: flex;
-  align-content: space-between;
-}
-.downarea{
-  display: flex;
-
-}
-.header{
-  font-weight: bold;
+.header{ /*Are you sure you want to do that?*/
+  font-weight: bold; /**/
+  display: flex; /**/
+  justify-content: space-between; /**/
+  align-items: center; /**/
+  font-size: 16px; /**/
+  margin-bottom: 10px; /**/
 }
 
-.icon {
+.icon { /* ! */
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -46,9 +45,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0; /**/
 }
 
-.close-button {
+.close-button { /* X */
   background: #eee;
   border-radius: 50%;
   color: #888;
@@ -59,6 +59,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.text { /* Lorem ipsum... */
+  margin-bottom: 10px; /**/
 }
 
 button {
